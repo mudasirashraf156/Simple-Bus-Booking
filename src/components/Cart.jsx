@@ -18,7 +18,7 @@ const Cart = () => {
       };
       try {
         const seats = await axios.post(
-          `http://localhost:8080/cart`,
+          `https://busbooking-q0n7.onrender.com/cart`,
           {
             userId: user._id,
           },
